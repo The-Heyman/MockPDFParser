@@ -11,6 +11,8 @@
 		FB94E5A227C0C6DE00EA725E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB94E5A127C0C6DE00EA725E /* ContentView.swift */; };
 		FB94E5A427C0C6E000EA725E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB94E5A327C0C6E000EA725E /* Assets.xcassets */; };
 		FB94E5A727C0C6E000EA725E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB94E5A627C0C6E000EA725E /* Preview Assets.xcassets */; };
+		FB94E5AE27C0CCBA00EA725E /* QLPreviewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB94E5AD27C0CCBA00EA725E /* QLPreviewer.swift */; };
+		FB94E5B027C0D09700EA725E /* PDFViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB94E5AF27C0D09700EA725E /* PDFViewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		FB94E5A127C0C6DE00EA725E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB94E5A327C0C6E000EA725E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB94E5A627C0C6E000EA725E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB94E5AD27C0CCBA00EA725E /* QLPreviewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QLPreviewer.swift; sourceTree = "<group>"; };
+		FB94E5AF27C0D09700EA725E /* PDFViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				FB94E59F27C0C6DE00EA725E /* MockPDFParserApp.swift */,
 				FB94E5A127C0C6DE00EA725E /* ContentView.swift */,
+				FB94E5AF27C0D09700EA725E /* PDFViewer.swift */,
+				FB94E5AD27C0CCBA00EA725E /* QLPreviewer.swift */,
 				FB94E5A327C0C6E000EA725E /* Assets.xcassets */,
 				FB94E5A527C0C6E000EA725E /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB94E5A227C0C6DE00EA725E /* ContentView.swift in Sources */,
+				FB94E5AE27C0CCBA00EA725E /* QLPreviewer.swift in Sources */,
+				FB94E5B027C0D09700EA725E /* PDFViewer.swift in Sources */,
 				FB94E5A027C0C6DE00EA725E /* MockPDFParserApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,6 +204,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -251,6 +261,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -277,6 +289,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +319,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
